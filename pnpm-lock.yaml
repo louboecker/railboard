@@ -30,8 +30,8 @@ dependencies:
     specifier: ^4.0.0
     version: 4.0.0
   nanoid-dictionary:
-    specifier: ^4.3.0
-    version: 4.3.0
+    specifier: ^5.0.0
+    version: 5.0.0
   next:
     specifier: 13.4.12
     version: 13.4.12(@babel/core@7.19.6)(react-dom@18.2.0)(react@18.2.0)
@@ -2080,6 +2080,7 @@ packages:
 
   /acorn-import-assertions@1.8.0(acorn@8.10.0):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -3800,8 +3801,8 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /nanoid-dictionary@4.3.0:
-    resolution: {integrity: sha512-Xw1+/QnRGWO1KJ0rLfU1xR85qXmAHyLbE3TUkklu9gOIDburP6CsUnLmTaNECGpBh5SHb2uPFmx0VT8UPyoeyw==}
+  /nanoid-dictionary@5.0.0:
+    resolution: {integrity: sha512-/iCyQHwt36XkaIvSE9fcC8p6DiMPCZMTSMj9UT56Cv6T7f5CuxvOMhpNncaNieQ4z4d32p7ruEtAfRsb7Ya8Gw==}
     dev: false
 
   /nanoid@3.3.4:
