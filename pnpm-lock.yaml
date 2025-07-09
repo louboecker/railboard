@@ -66,8 +66,8 @@ dependencies:
     specifier: ^0.4.0
     version: 0.4.0
   zod:
-    specifier: ^3.19.1
-    version: 3.19.1
+    specifier: ^4.0.0
+    version: 4.0.0
 
 devDependencies:
   '@tailwindcss/typography':
@@ -2080,6 +2080,7 @@ packages:
 
   /acorn-import-assertions@1.8.0(acorn@8.10.0):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -5308,10 +5309,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.19.1:
-    resolution: {integrity: sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==}
-    dev: false
-
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: false
+
+  /zod@4.0.0:
+    resolution: {integrity: sha512-9diLdTPc/L7w/5jI4C3gHYNiGHDV9IZYxo1e5LSD8cabi65WVTWWb+g2BGPEpUUCOxR4D+6O5B0AzyMdUAXwrw==}
     dev: false
