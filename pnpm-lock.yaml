@@ -51,8 +51,8 @@ dependencies:
     specifier: ^5.3.4
     version: 5.3.4(react-dom@18.2.0)(react@18.2.0)
   react-virtualized-auto-sizer:
-    specifier: ^1.0.7
-    version: 1.0.7(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^2.0.0
+    version: 2.0.3(react-dom@18.2.0)(react@18.2.0)
   react-window:
     specifier: ^1.8.7
     version: 1.8.7(react-dom@18.2.0)(react@18.2.0)
@@ -2080,6 +2080,7 @@ packages:
 
   /acorn-import-assertions@1.8.0(acorn@8.10.0):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -4319,12 +4320,11 @@ packages:
       styled-tools: 1.7.2
     dev: false
 
-  /react-virtualized-auto-sizer@1.0.7(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Mxi6lwOmjwIjC1X4gABXMJcKHsOo0xWl3E3ugOgufB8GJU+MqrtY35aBuvCYv/razQ1Vbp7h1gWJjGjoNN5pmA==}
-    engines: {node: '>8.0.0'}
+  /react-virtualized-auto-sizer@2.0.3(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-nonmCSUIh5HtbzazGcQ1NhnMFps/ZBu/UKJyhCt0Fhi7ondLAUZNETtRCWM8RWYZDzVlMYOQGgBmIxUutIhqgw==}
     peerDependencies:
-      react: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0-rc
-      react-dom: ^15.3.0 || ^16.0.0-alpha || ^17.0.0 || ^18.0.0-rc
+      react: ^18.0.0 || ^19.0.0
+      react-dom: ^18.0.0 || ^19.0.0
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
