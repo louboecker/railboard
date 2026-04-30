@@ -27,8 +27,8 @@ dependencies:
     specifier: ^1.11.5
     version: 1.11.5
   nanoid:
-    specifier: ^4.0.0
-    version: 4.0.0
+    specifier: ^5.0.0
+    version: 5.1.11
   nanoid-dictionary:
     specifier: ^4.3.0
     version: 4.3.0
@@ -2080,6 +2080,7 @@ packages:
 
   /acorn-import-assertions@1.8.0(acorn@8.10.0):
     resolution: {integrity: sha512-m7VZ3jwz4eK6A4Vtt8Ew1/mNbP24u0FhdyfA7fSvnJR6LMdfOYnmuIrrJAgrYfYJ10F/otaHTtrtrtmHdMNzEw==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
     dependencies:
@@ -3809,9 +3810,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  /nanoid@4.0.0:
-    resolution: {integrity: sha512-IgBP8piMxe/gf73RTQx7hmnhwz0aaEXYakvqZyE302IXW3HyVNhdNGC+O2MwMAVhLEnvXlvKtGbtJf6wvHihCg==}
-    engines: {node: ^14 || ^16 || >=18}
+  /nanoid@5.1.11:
+    resolution: {integrity: sha512-v+KEsUv2ps74PaSKv0gHTxTCgMXOIfBEbaqa6w6ISIGC7ZsvHN4N9oJ8d4cmf0n5oTzQz2SLmThbQWhjd/8eKg==}
+    engines: {node: ^18 || >=20}
     hasBin: true
     dev: false
 
