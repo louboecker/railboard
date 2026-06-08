@@ -1,4 +1,5 @@
 # Railboard
+⚠️⚠️ Railboard currently does not work, since I lost access to the original API that I was using, and I currently don't have the energy and time to change this. A general rewrite is in the workings and will (maybe) happen at some point :tm: ⚠️⚠️
 
 Railboard is a web-app to easily view information like delay, platform(-changes) and more
 base upon the German Train Service's ([Deutsche Bahn](https://www.deutschebahn.com/)) API.
